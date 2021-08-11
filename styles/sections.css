@@ -29,11 +29,12 @@
 
 .about-me__image {
   position: relative;
-  float: right;
+  bottom: 90px;
+  left: calc(100% - 150px);
+  margin-bottom: -75px;
   width: 150px;
   height: 150px;
   border: 8px solid #000;
- 
 }
 
 .about-me__paragraph {
