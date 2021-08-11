@@ -1,0 +1,44 @@
+.section {
+  border: 8px solid #000;
+  border-top: none;
+  min-height: 200px;
+  padding: 10px 10px 20px 10px;
+}
+
+.section__header {
+  margin: 0;
+  padding-left: 10px;
+  font-family: 'CircularStd-Bold';
+  font-size: 32px;
+}
+
+.blink-dash {
+  position: absolute;
+  display: none;
+  font-family: 'CircularStd-Book';
+  transition: all .3s ease-in-out;
+}
+
+.blink-dash--active {
+  display: inline;
+}
+
+.section__about-me {
+  padding: 10px 10px 0 10px;
+}
+
+.about-me__image {
+  position: relative;
+  float: right;
+  width: 150px;
+  height: 150px;
+  border: 8px solid #000;
+ 
+}
+
+.about-me__paragraph {
+  display: inline;
+  padding-left: 15px;
+  font-family: 'CircularStd-Book';
+  font-size: 18px;
+}
