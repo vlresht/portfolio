@@ -3,6 +3,7 @@
 @import url('fonts.css');
 @import url('header.css');
 @import url('sections.css');
+@import url('slider.css');
 
 ::-webkit-scrollbar {
   display: none;
