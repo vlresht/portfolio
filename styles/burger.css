@@ -3,7 +3,7 @@
 }
 
 .menu__icon {
-  position: relative;
+  position: fixed;
   width: 30px;
   height: 18px;
   z-index: 11;
@@ -61,7 +61,7 @@
   width: 100%;
   min-height: 400px;
   transform: translate(0px, -100%);
-  background-color: #fff;
+  background-color: #f4efde;
   transition: all 0.3s ease-in-out;
 }
 
