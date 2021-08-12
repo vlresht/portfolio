@@ -121,3 +121,8 @@
   color: #2f2d2e;
   text-align: center;
 }
+
+.project__title {
+  font-family: 'CircularStd-Bold';
+  font-size: 22px;
+}
