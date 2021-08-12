@@ -33,6 +33,12 @@
   margin-bottom: 0;
 }
 
+.menu__item--heart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .menu__link {
   font-family: "CircularStd-Bold";
   font-size: 22px;
@@ -43,4 +49,28 @@
 
 .menu__link:visited {
   color: #000;
+}
+
+.heart--container {
+  position: relative;
+  bottom: 12px;
+  left: 48px;
+  margin-bottom: -12px;
+  margin-left: -48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.heart {
+  width: 48px;
+  height: 48px;
+  transition: all .3s ease-in-out;
+}
+
+.heart--small {
+  width: 32px;
+  height: 32px;
 }
