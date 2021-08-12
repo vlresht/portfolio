@@ -23,6 +23,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 a:visited {
@@ -36,4 +37,10 @@ a:visited {
 
 .orange-text {
   color:#c85108;
+}
+
+.blue-text {
+  font-family: 'CircularStd-Italic';
+  font-size: 16px;
+  color: #6C809A;
 }

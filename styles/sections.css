@@ -137,6 +137,10 @@
   font-size: 20px;
 }
 
+.project__describtion:last-of-type {
+  margin-top: 10px;
+}
+
 .project__list {
   padding: 20px;
   margin: 0;
