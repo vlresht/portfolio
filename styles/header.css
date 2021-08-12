@@ -113,4 +113,8 @@
   .header {
     border: 12px solid #000;
   }
+
+  .nav__item {
+    font-size: 22px;
+  }
 }
