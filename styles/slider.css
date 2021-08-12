@@ -23,7 +23,9 @@
   align-items: flex-start;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+}
+
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
@@ -86,4 +88,21 @@
   background-color: #000;
   margin-left: 5px;
   transition: all .3s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .slider {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .slick-list {
+    margin: 0 -20px;
+  }
+
+  .slick-slide{
+    margin: 0 20px;
+    border: 4px solid #000;
+  }
 }

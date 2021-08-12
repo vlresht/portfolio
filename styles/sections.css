@@ -209,4 +209,8 @@
   .section__header::after {
     height: 6px;
   }
+
+  .project__title {
+    font-size: 28px;
+  }
 }

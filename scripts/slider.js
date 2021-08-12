@@ -3,6 +3,16 @@ $(document).ready(function() {
     arrows: false,
     dots: true,
     adaptiveHeight: true,
-    slidesToShow: 1,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   })
 })
