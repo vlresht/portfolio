@@ -199,3 +199,14 @@
     font-size: 24px;
   }
 }
+
+@media (min-width: 992px) {
+  .section {
+    border: 12px solid #000;
+    border-top: none;
+  }
+
+  .section__header::after {
+    height: 6px;
+  }
+}
