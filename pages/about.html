@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>coming soon...</title>
   <link rel="stylesheet" href="../styles/index.css">
+  <title>Document</title>
 </head>
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="header__container">
       <div class="header__menu menu">
         <div class="menu__icon">
@@ -20,7 +20,7 @@
               <a href="../index.html" class="menu__link">home</a>
             </li>
             <li class="menu__item">
-              <a href="../pages/about.html" class="menu__link">about me</a>
+              <a href="#about-me" class="menu__link">about me</a>
             </li>
             <li class="menu__item">
               <a href="../pages/skills.html" class="menu__link">my skills</a>
@@ -29,13 +29,13 @@
               <a href="../pages/projects.html" class="menu__link">my projects</a>
             </li>
             <li class="menu__item menu__item--heart">
-              <a href="" class="menu__link">my colleagues</a>
+              <a href="../pages/colleagues.html" class="menu__link">my colleagues</a>
               <div class="heart--container">
                 <img src="../assets/img/heart-2.svg" alt="heart" class="heart">
               </div>
             </li>
             <li class="menu__item">
-              <a href="" class="menu__link">contact me</a>
+              <a href="#contacts" class="menu__link">contact me</a>
             </li>
           </ul>
         </nav>
@@ -43,8 +43,18 @@
       <nav class="header__nav"></nav>
     </div>
   </header>
-  <section class="section">
-    <h1 class="section__header">coming soon...</h1>
+  <section id="about-me" class="section">
+    <h1 class="section__header">abo<span class="orange-text">u</span>t me</h1>
+    <div class="about-me__image">
+      <img src="../assets/img/rozha2.jpg" alt="my face" class="image">
+    </div>
+    <span class="blink-dash">-</span>
+    <p class="about-me__paragraph">hi, i'm a beginner web-developer from russia, taganrog. 
+      currently taking an information security course at southern federal university.
+      i enjoy building user interfaces and interactive web-pages. my favorite hobby is making electronic music and hip-hop instrumentals.
+      <span class="crossed-text">i'm basically a huge music nerd.</span> my second hobby is learning foreign languages.
+      i speak russian, english and recently started learning czech. 
+    </p>
   </section>
   <footer id="contacts" class="section footer">
     <div class="social">
@@ -64,3 +74,4 @@
   <script src="../scripts/blinkDash.js"></script>
   <script src="../scripts/heart.js"></script>
 </body>
+</html>

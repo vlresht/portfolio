@@ -5,6 +5,7 @@
 }
 
 .section__header {
+  display: block;
   width: fit-content;
   margin: 0;
   font-family: 'CircularStd-Bold';
