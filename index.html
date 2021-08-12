@@ -8,7 +8,7 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="header__container">
       <div class="header__menu menu">
         <div class="menu__icon">
@@ -16,6 +16,9 @@
         </div>
         <nav class="menu__body">
           <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#header" class="menu__link">home</a>
+            </li>
             <li class="menu__item">
               <a href="#about-me" class="menu__link">about me</a>
             </li>
@@ -93,7 +96,7 @@
     <h1 class="section__header section__heaer--left">my proj<span class="orange-text">e</span>cts</h1>
     <div class="projects__container">
       <div class="project">
-        <h2 class="project__title">design conference</h2>
+        <a href="pages/conference.html" class="project__title">design conference</a>
         <div class="slider project__slider">
           <div class="slider__item">
             <img src="./assets/img/screen-1.png" alt="" class="slider__image">
@@ -108,6 +111,7 @@
             <img src="./assets/img/screen-4.png" alt="" class="slider__image">
           </div>
         </div>
+        <div class="project__describtion"></div>
       </div>
     </div>
   </section>
