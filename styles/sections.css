@@ -160,3 +160,42 @@
   height: 8px;
   background-color: #6C809A;
 }
+
+@media (max-width: 340px) {
+  .about-me__image {
+    width: 120px;
+    height: 120px;
+    left: calc(100% - 120px);
+  }
+}
+
+@media (min-width: 576px) {
+  .section {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container--collide {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section--collide {
+    display: inline-block;
+    width: calc(50%);
+  }
+
+  .section--collide:first-of-type {
+    border-right: none;
+  }
+
+  .section__about-me {
+    margin-top: 50px;
+  }
+
+  .about-me__paragraph,
+  .blink-dash {
+    font-size: 24px;
+  }
+}

@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  min-height: 55px;
   width: 100%;
   padding: 10px 0 10px 10px;
   border: 8px solid #000;
@@ -73,4 +73,38 @@
 .heart--small {
   width: 32px;
   height: 32px;
+}
+
+.header__nav {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .header {
+    padding: 10px 0 10px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 20px 40px;
+  }
+
+  .header__nav {
+    display: block;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__item {
+    font-family: 'CircularStd-Bold';
+    font-size: 18px;
+  }
 }

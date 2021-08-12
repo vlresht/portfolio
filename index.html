@@ -40,55 +40,78 @@
           </ul>
         </nav>
       </div>
-      <nav class="header__nav"></nav>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="" class="nav__link">home</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">about me</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">my skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">my projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">my colleagues</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">contact me</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
-  <section id="about-me" class="section">
-    <a href="./pages/about.html" class="section__header">abo<span class="orange-text">u</span>t me</a>
-    <div class="section__about-me">
-      <div class="about-me__image">
-        <img src="./assets/img/rozha2.jpg" alt="my face" class="image">
+  <div class="container--collide">
+    <section id="about-me" class="section section--collide">
+      <a href="./pages/about.html" class="section__header">abo<span class="orange-text">u</span>t me</a>
+      <div class="section__about-me">
+        <!--<div class="about-me__image">
+          <img src="./assets/img/rozha2.jpg" alt="my face" class="image">
+        </div>-->
+        <span class="blink-dash orange-text">-</span>
+        <p class="about-me__paragraph">hi, i'm a beginner web-developer from russia, taganrog. 
+          currently taking an information security course at southern federal university.
+          i enjoy building user interfaces and interactive web-pages.
+        </p>  
       </div>
-      <span class="blink-dash orange-text">-</span>
-      <p class="about-me__paragraph">hi, i'm a beginner web-developer from russia, taganrog. 
-        currently taking an information security course at southern federal university.
-        i enjoy building user interfaces and interactive web-pages.
-      </p>  
-    </div>
-  </section>
-  <section id="my-skills" class="section">
-    <a href="./pages/skills.html" class="section__header section__header--right">my sk<span class="orange-text">i</span>lls</a>
-    <div class="skills__container">
-      <div class="skill">
-        <h2 class="skill__title">html</h2>
-        <p class="skill__level skill__level--proficient">proficient</p>
+    </section> 
+    <section id="my-skills" class="section section--collide">
+      <a href="./pages/skills.html" class="section__header section__header--right">my sk<span class="orange-text">i</span>lls</a>
+      <div class="skills__container">
+        <div class="skill">
+          <h2 class="skill__title">html</h2>
+          <p class="skill__level skill__level--proficient">proficient</p>
+        </div>
+        <div class="skill">
+          <h2 class="skill__title">css, less, scss</h2>
+          <p class="skill__level skill__level--advanced">advanced</p>
+        </div>
+        <div class="skill">
+          <h2 class="skill__title">js</h2>
+          <p class="skill__level skill__level--intermediate">intermediate</p>
+        </div>
+        <div class="skill">
+          <h2 class="skill__title">jquery</h2>
+          <p class="skill__level skill__level--elementary">elementary</p>
+        </div>
+        <div class="skill">
+          <h2 class="skill__title">reactjs</h2>
+          <p class="skill__level skill__level--elementary">elementary</p>
+        </div>
+        <div class="skill">
+          <h2 class="skill__title">python</h2>
+          <p class="skill__level skill__level--advanced">advanced</p>
+        </div>
+        <div class="skill">
+          <h2 class="skill__title">git, github</h2>
+          <p class="skill__level skill__level--advanced">advanced</p>
+        </div>
       </div>
-      <div class="skill">
-        <h2 class="skill__title">css, less, scss</h2>
-        <p class="skill__level skill__level--advanced">advanced</p>
-      </div>
-      <div class="skill">
-        <h2 class="skill__title">js</h2>
-        <p class="skill__level skill__level--intermediate">intermediate</p>
-      </div>
-      <div class="skill">
-        <h2 class="skill__title">jquery</h2>
-        <p class="skill__level skill__level--elementary">elementary</p>
-      </div>
-      <div class="skill">
-        <h2 class="skill__title">reactjs</h2>
-        <p class="skill__level skill__level--elementary">elementary</p>
-      </div>
-      <div class="skill">
-        <h2 class="skill__title">python</h2>
-        <p class="skill__level skill__level--advanced">advanced</p>
-      </div>
-      <div class="skill">
-        <h2 class="skill__title">git, github</h2>
-        <p class="skill__level skill__level--advanced">advanced</p>
-      </div>
-    </div>
-  </section>
+    </section> 
+  </div>
   <section id="my-projects" class="section">
     <a href="./pages/projects.html" class="section__header section__heaer--left">my proj<span class="orange-text">e</span>cts</a>
     <div class="projects__container">
