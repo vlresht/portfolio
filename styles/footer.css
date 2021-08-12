@@ -1,0 +1,33 @@
+.social__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social__link {
+  display: block;
+  width: 24px;
+  height: 24px;  
+}
+
+.social__link--vk {
+  background-image: url('../assets/img/vk.svg');
+}
+
+.social__link--telegram {
+  background-image: url('../assets/img/telegram.svg');
+}
+
+.social__link--github {
+  background-image: url('../assets/img/github.svg');
+}
+
+.social__link--email {
+  background-image: url('../assets/img/email.svg');
+}
+
+.social__email {
+  font-family: 'CircularStd-Italic';
+  font-size: 14px;
+}
