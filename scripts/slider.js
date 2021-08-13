@@ -4,6 +4,7 @@ $(document).ready(function() {
     dots: true,
     slidesToShow: 2,
     slidesToScroll: 2,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1400,
